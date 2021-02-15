@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/memetiminabliz/JavaCoding2">
+        <classes>
+            <class name="com.Java_Technical.cubecart_Demo1">
+                <methods>
+                    <include name="Login"/>
+                    <include name="AddProduct"/>
+                    <include name="AddCustomer"/>
+                    <include name="Signout"/>
+                </methods>
+            </class>
+            <class name="com.Java_Technical.cuberCart_demo">
+                <methods>
+                    <include name="Login"/>
+                    <include name="AddProduct"/>
+                    <include name="AddCustomer"/>
+                    <include name="Signout"/>
+                </methods>
+            </class>
+            <class name="com.PageObjectModel.VerifyValidLogin">
+                <methods>
+                    <include name="checkValidUser"/>
+                </methods>
+            </class>
+            <class name="com.PageObjectModel.VerifyWordpressLogin">
+                <methods>
+                    <include name="verifyValidLogin"/>
+                </methods>
+            </class>
+            <class name="com.ReadingFiles.ApacheCommonsCSV">
+                <methods>
+                    <include name="readCSV"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.SoftAssertDemo">
+                <methods>
+                    <include name="Softassertdemo1"/>
+                    <include name="interviewPlan"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.TestNG_Guru99.TestNGDemo1">
+                <methods>
+                    <include name="Run"/>
+                    <include name="TestTheWebsite"/>
+                    <include name="MobileTesting"/>
+                    <include name="Resting"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.TestNG_Guru99.TestNGDemoByMe">
+                <methods>
+                    <include name="Thanks"/>
+                    <include name="Elhamdulliah"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.TestNG_Guru99.firsttestngfile">
+                <methods>
+                    <include name="verifyHomepageTitle"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.TestOne">
+                <methods>
+                    <include name="testCaseOne"/>
+                    <include name="testCasetwo"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.day1">
+                <methods>
+                    <include name="Demo"/>
+                    <include name="SecondTest"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.day3">
+                <methods>
+                    <include name="WebloginCarLoan"/>
+                    <include name="MobilesignimcarLoan"/>
+                    <include name="MobilesignoutcarLoan"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.day4">
+                <methods>
+                    <include name="WebloginHomeLoan"/>
+                    <include name="LoginAPIHomeLoan"/>
+                </methods>
+            </class>
+            <class name="com.TestNGDemo.groupExamples">
+                <methods>
+                    <include name="testCaseOne"/>
+                    <include name="testCaseTwo"/>
+                    <include name="testCaseThree"/>
+                    <include name="testCaseFour"/>
+                    <include name="TestCaseFive"/>
+                    <include name="TestCaseSix"/>
+                </methods>
+            </class>
+            <class name="com.cubecart.cubecart_Demo1">
+                <methods>
+                    <include name="AddProduct"/>
+                    <include name="AddCustomer"/>
+                    <include name="Signout"/>
+                </methods>
+            </class>
+            <class name="com.cubecart.cuberCart_demo">
+                <methods>
+                    <include name="Login"/>
+                    <include name="AddProduct"/>
+                    <include name="AddCustomer"/>
+                    <include name="Signout"/>
+                </methods>
+            </class>
+            <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+                <methods>
+                    <include name="checkResposeBody"/>
+                    <include name="checkStatusCode"/>
+                    <include name="checkResponseTime"/>
+                    <include name="checkstatusLine"/>
+                    <include name="checkContentType"/>
+                    <include name="checkserverType"/>
+                    <include name="checkcontentEncoding"/>
+                    <include name="checkContentLenght"/>
+                    <include name="checkCookies"/>
+                </methods>
+            </class>
+            <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+                <methods>
+                    <include name="checkResposeBody"/>
+                    <include name="checkStatusCode"/>
+                    <include name="checkResponseTime"/>
+                    <include name="checkstatusLine"/>
+                    <include name="checkContentType"/>
+                    <include name="checkserverType"/>
+                    <include name="checkContentLenght"/>
+                </methods>
+            </class>
+            <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+                <methods>
+                    <include name="checkResposeBody"/>
+                    <include name="checkStatusCode"/>
+                    <include name="checkstatusLine"/>
+                    <include name="checkContentType"/>
+                    <include name="checkserverType"/>
+                    <include name="checkcontentEncoding"/>
+                </methods>
+            </class>
+            <class name="com.employeeapi.testCases.TC004_Put_Employee_Record">
+                <methods>
+                    <include name="checkResposeBody"/>
+                    <include name="checkStatusCode"/>
+                    <include name="checkstatusLine"/>
+                    <include name="checkContentType"/>
+                    <include name="checkserverType"/>
+                    <include name="checkcontentEncoding"/>
+                </methods>
+            </class>
+            <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
+                <methods>
+                    <include name="checkResposeBody"/>
+                    <include name="checkStatusCode"/>
+                    <include name="checkstatusLine"/>
+                    <include name="checkContentType"/>
+                    <include name="checkserverType"/>
+                    <include name="checkcontentEncoding"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

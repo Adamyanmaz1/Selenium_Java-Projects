@@ -1,0 +1,33 @@
+package com.LocatorsDemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FindElementDemo {
+
+    public static void main(String[] args) throws InterruptedException {
+
+// TODO Auto-generated method stub
+        // path of the chromedriver
+
+        System.setProperty("webdriver.chrome.driver","/Users/memetiminabliz/webdriver/chromedriver");
+
+        //inialize the chromedriver
+
+        WebDriver driver=new ChromeDriver();
+
+        driver.get("https://www.softwaretestinghelp.com/");
+        WebElement textDemo = driver.findElement(By.xpath("//*[text()='Write and Earn']"));
+
+        if(textDemo.isDisplayed())
+        {
+            System.out.println("Element found using text");
+        }
+
+        else
+            System.out.println("Element not found");
+        driver.quit();
+    }
+}

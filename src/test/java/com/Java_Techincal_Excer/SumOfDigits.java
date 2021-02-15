@@ -1,0 +1,19 @@
+package com.Java_Techincal_Excer;
+
+public class SumOfDigits {
+
+    public static void main(String[] args){
+
+        int number = 1346;
+        int sum = 0;
+        while(number > 0) {
+
+//            number = number/10;
+            sum += number%10;
+            number = number/10;
+        }
+        System.out.println(sum);
+
+    }
+    }
+

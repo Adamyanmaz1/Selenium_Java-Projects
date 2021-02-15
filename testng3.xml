@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<listeners>
+    <listener class-name="com.TestNGDemo.Listeners"></listener>
+</listeners>
+    <test name="Regression">
+        <groups>
+            <run>
+                <exclude name ="Smoke"/>
+            </run>
+        </groups>
+    <classes>
+      <class name="com.TestNGDemo.day1"/>
+      <class name="com.TestNGDemo.day2"/>
+      <class name ="com.TestNGDemo.day4"/>
+        <class name="com.TestNGDemo.day3"/>
+      
+    </classes>
+  </test> 
+
+</suite>
