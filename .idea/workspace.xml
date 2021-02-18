@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9051d53e-3c71-4550-b29c-b5c0e06b4f62" name="Default Changelist" comment="this is a simple for excercise class">
+      <change afterPath="$PROJECT_DIR$/A11556171v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A11556171v.pub" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/ArrayListDemo1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/AutoBoxingTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/CamelCase_Hackerrank.java" afterDir="false" />
@@ -23,6 +25,11 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/StringToInteger_Demo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/String_PracDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/localvsGlobalVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium/ScreenshotDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium/SeleniumWaitsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Selenium/homePageScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/ArrayListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/ArraysDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/BinarySearch.java" afterDir="false" />
@@ -71,6 +78,7 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/tryfinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/tryfinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/yes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/yes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Java_Technical/yes.pub" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Java_Technical/yes.pub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Selenium/Iframe_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Selenium/Iframe_Selenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +108,7 @@
         <entry key="$PROJECT_DIR$/src/test/java/com/Java_Technical" value="master1" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/java/com/Java_Technical" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -178,7 +186,9 @@
     <option name="height" value="757" />
   </component>
   <component name="ProjectId" id="1lfriK4LPyMMb6mN8NISDVQWyZM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -294,6 +304,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -302,7 +313,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/Java_Technical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2465628" />
@@ -324,7 +335,7 @@
       <recent name="com.UpgradeJavaCoding.com.web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.ScreenshotDemo">
     <configuration name="CamelCase_Hackerrank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Java_Technical.CamelCase_Hackerrank" />
       <module name="JavaCoding2" />
@@ -351,19 +362,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowStrongPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Java_Technical.HowStrongPassword" />
-      <module name="JavaCoding2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Java_Technical.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Java_Technical.Program" />
       <module name="JavaCoding2" />
@@ -383,6 +381,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Java_Technical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreenshotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Selenium.ScreenshotDemo" />
+      <module name="JavaCoding2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,19 +448,19 @@
     <list>
       <item itemvalue="Application.CamelCase_Hackerrank" />
       <item itemvalue="Application.CountingTheUpWord" />
-      <item itemvalue="Application.HowStrongPassword" />
       <item itemvalue="Application.Program" />
       <item itemvalue="Application.ReversedNum" />
+      <item itemvalue="Application.ScreenshotDemo" />
       <item itemvalue="Maven.JavaCoding []" />
       <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScreenshotDemo" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.ReversedNum" />
         <item itemvalue="Application.CountingTheUpWord" />
         <item itemvalue="Application.CamelCase_Hackerrank" />
-        <item itemvalue="Application.HowStrongPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -590,6 +601,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/test/java/com/GitProject/JavaCommonInterviewQuestions" />
       <path value="$PROJECT_DIR$/src/test/java/com/JavaCommonInterviewQuestions" />
